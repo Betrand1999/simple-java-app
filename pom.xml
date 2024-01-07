@@ -20,7 +20,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>BertrandApp</mainClass> <!-- Use the correct main class name -->
+                            <mainClass>com.example.BertrandApp</mainClass> <!-- Corrected main class name -->
                         </manifest>
                     </archive>
                 </configuration>
