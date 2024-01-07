@@ -20,7 +20,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.example.BertrandApp</mainClass> <!-- Corrected main class name -->
+                            <mainClass>BertrandApp</mainClass> <!-- Corrected main class name -->
                         </manifest>
                     </archive>
                 </configuration>
@@ -28,4 +28,3 @@
         </plugins>
     </build>
 </project>
-
