@@ -1,4 +1,4 @@
-name: Java Build
+name: Java Build and Execute
 
 on:
   push:
@@ -16,7 +16,12 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          java-version: 8  
+          java-version: 1.8
+          distribution: 'adopt'
+          # Add other relevant setup-java inputs if needed
 
       - name: Build with Maven
         run: mvn clean install
+
+      - name: Execute Bertrand App
+        run: java -jar target/bertrand-app-1.0-SNAPSHOT.jar
