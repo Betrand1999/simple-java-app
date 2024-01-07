@@ -23,4 +23,5 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
- 
+      - name: Execute JAR Artifact
+        run: java -jar target/simple-java-app-1.0-SNAPSHOT.jar
